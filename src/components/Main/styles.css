@@ -127,25 +127,6 @@
   
 }
 
-.header {
-  position: absolute;
-  display: flex;
-  right: 20px;
-  top: 10px
-}
-
-.header a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  margin-left: 15px;
-  color: white;
-  cursor: pointer;
-}
-
-.header a:hover {
-  color: yellow;
-}
-
 .logo {
   position: absolute;
   right: 20px;

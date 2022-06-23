@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import GithubIcon from '../../assets/icons/github-icon.svg';
 import LinkedinIcon from '../../assets/icons/linkedin-icon.svg';
+import NavBar from "../NavBar";
 import "./styles.css";
 
 
@@ -12,7 +13,8 @@ import "./styles.css";
 export default function AboutUs() {
 
     return (
-        <div id="about-us">
+        <section id="about-us">
+            <NavBar />            
 
             <h1>About us</h1>
 
@@ -124,6 +126,6 @@ export default function AboutUs() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 }

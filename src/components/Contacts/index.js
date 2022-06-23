@@ -4,7 +4,7 @@ import ArrowUp from '../../assets/icons/arrow-up.svg'
 
 export default function Contacts() {
     return (
-        <div id="contacts">
+        <section id="contacts">
             <h1>Contacts</h1>
 
             <div style={{ background: 'white', padding: '16px' }}>
@@ -12,6 +12,6 @@ export default function Contacts() {
             </div>
 
             <a href="# "><img src={ArrowUp} alt="up" /></a>
-        </div>
+        </section>
     );
 }

@@ -1,0 +1,64 @@
+.nav-icon img {
+    height: 40px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    cursor: pointer;
+}
+
+.nav-menu {
+    background-color: #060b26;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 20;
+}
+
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.nav-menu-items li {
+    padding: 1rem 2rem;
+}
+
+.nav-menu-items li:first-child {
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.nav-menu span {
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-menu span:hover {
+    color: yellow;
+}

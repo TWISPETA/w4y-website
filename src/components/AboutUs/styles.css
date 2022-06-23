@@ -20,8 +20,8 @@
 }
 
 .img-box {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     background-color: black;
     font-size: 5rem;
     display: flex;
@@ -42,13 +42,15 @@
 
 .about-us-links img {
     margin-right: 15px;
-    height: 40px !important;
+    height: 50px !important;
     cursor: pointer;
 }
 
 .swiper {
   width: 90%;
   height: 70%;
+  
+  z-index: 1;
 }
 
 .swiper-slide {
@@ -61,10 +63,12 @@
 
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
+
+    z-index: 1;
 }
 
 .swiper-slide p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: justify;
 }
 

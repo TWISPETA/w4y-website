@@ -7,7 +7,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Projects() {
     return (
-        <div id='projects'>
+        <section id='projects'>
             <h1>Projects</h1>
 
             <Swiper
@@ -54,6 +54,6 @@ export default function Projects() {
                     <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt='1'/>
                 </SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 }

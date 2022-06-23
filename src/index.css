@@ -16,6 +16,18 @@ body {
   flex-direction: column;
 }
 
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+section {
+  scroll-snap-align: start;
+  display: flex;
+  height: 100vh;
+}
+
 
 html {
   font-size: 62.5%;
